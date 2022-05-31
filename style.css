@@ -3,7 +3,7 @@ body{
 }
 
 
-@media  screen and (max-width:675px) {
+@media  screen and (max-width:900px) {
 
 .resp{
     display: flex;
@@ -11,9 +11,9 @@ body{
     align-self: center;
 }
 
-.cr{
+.ctr {
     display: flex;
-    flex-direction: column-reverse;
+    justify-content: center;
+    
 }
-
 }
