@@ -1,3 +1,19 @@
 body{
     background-color: black;
 }
+
+
+@media  screen and (max-width:675px) {
+
+.resp{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.cr{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+}
