@@ -9276,5 +9276,11 @@ textarea.form-control-lg {
 
   .d-print-none {
     display: none !important; } }
+body {
+  background-color: white; }
+
+.container {
+  display: flex;
+  flex-direction: column; }
 
 /*# sourceMappingURL=style2.css.map */

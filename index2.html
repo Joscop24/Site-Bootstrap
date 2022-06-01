@@ -12,7 +12,7 @@
 
 
     <!-- CSS -->
-    <link rel="stylesheet" href="./assets/css/style2.css" />
+    <link rel="stylesheet" href="./assets/css/style2.css"/>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
@@ -51,12 +51,12 @@
 
                 <!-- Button trigger modal -->
                 <button type="button" class="btn btn-outline-light" data-bs-toggle="modal"
-                    data-bs-target="#exampleModal">
+                    data-bs-target="#connectmodal">
                     Connection
                 </button>
 
                 <!-- Modal -->
-                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                <div class="modal fade" id="connectmodal" tabindex="-1" aria-labelledby="exampleModalLabel"
                     aria-hidden="true">
                     <div class="modal-dialog">
                         <div class="modal-content">
@@ -72,7 +72,7 @@
                                 <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
                             </div>
                             <div class="modal-footer">
-                                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close/Ferme</button>
                                 <button type="button" class="btn btn-outline-dark">Connect</button>
                             </div>
                         </div>
@@ -84,12 +84,8 @@
     <!-- //NavBar -->
 
     <!-- Header -->
-
-
-
-
     <header class="card bg-dark text-white">
-        <img src="./assets/images/Model-3.jpeg" class="card-img" alt="...">
+        <img src="./assets/images/Model-3.jpeg" class="card-img img-fluid" alt="...">
         <div class="card-img-overlay ">
             <!-- position-absolute top-100 start-50 translate-middle-x -->
             <!-- <h5 class="card-title">Card title</h5>
@@ -103,7 +99,7 @@
     <div class="container">
         <div class="col-md-12 row mt-4">
             <div class="col row">
-                <img src="./assets/images/moudel3.jpeg" class="w-75 rounded-4">
+                <img src="./assets/images/moudel3.jpeg" class=" rounded-4">
             </div>
             <div class="col row">
                 <h5>Autonomie</h5>
@@ -140,13 +136,8 @@
             <div class="col row">
                 <h5>Performance</h5>
                 <h4>Accélération la plus rapide</h4>
-                <div class="col-md-2 text-center">
-                    <button type="button" class="btn btn-outline-light rounded-5">+</button>
-
-                </div>
-
-                <div class="col row">
-                    <p>En savoir plus</p>
+                <div class="col row text-center">
+                    <button type="button" class="btn btn-outline-light rounded-5">En Savoir Plus</button>
                 </div>
                 <div class="col row">
                     <button type="button" class="btn btn-outline-light rounded-5"> Commander</button>
@@ -157,16 +148,17 @@
 
 
     <!-- Button HELP -->
+    <div>
     <div class="d-flex justify-content-end fixed-bottom me-4 mb-4">
         <!-- Button trigger modal -->
         <button type="button" class="btn btn-outline-light rounded-circle " data-bs-toggle="modal"
-            data-bs-target="#exampleModal">
+            data-bs-target="#chatmodal">
             <!-- <i class="fa-solid fa-message fa-2x"></i> -->
             <i class="fa-solid fa-comment-dots fa-2x"></i>
         </button>
-
+    </div> 
         <!-- Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal fade" id="chatmodal" tabindex="0" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -174,7 +166,7 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <label for="exampleFormControlInput1" class="form-label text-dark">Email address</label>
+                        <label for="exampleFor0mControlInput1" class="form-label text-dark">Email address</label>
                         <input type="email" class="form-control" id="exampleFormControlInput1"
                             placeholder="solobruno@example.com">
                         <label for="exampleFormControlInput1" class="form-label text-dark">Name</label>
