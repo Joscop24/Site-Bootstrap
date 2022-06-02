@@ -12,7 +12,7 @@
 
 
     <!-- CSS -->
-    <link rel="stylesheet" href="./assets/css/style2.css"/>
+    <link rel="stylesheet" href="./assets/css/style2.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
@@ -72,7 +72,8 @@
                                 <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
                             </div>
                             <div class="modal-footer">
-                                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close/Ferme</button>
+                                <button type="button" class="btn btn-danger"
+                                    data-bs-dismiss="modal">Close/Ferme</button>
                                 <button type="button" class="btn btn-outline-dark">Connect</button>
                             </div>
                         </div>
@@ -149,14 +150,14 @@
 
     <!-- Button HELP -->
     <div>
-    <div class="d-flex justify-content-end fixed-bottom me-4 mb-4">
-        <!-- Button trigger modal -->
-        <button type="button" class="btn btn-outline-light rounded-circle " data-bs-toggle="modal"
-            data-bs-target="#chatmodal">
-            <!-- <i class="fa-solid fa-message fa-2x"></i> -->
-            <i class="fa-solid fa-comment-dots fa-2x"></i>
-        </button>
-    </div> 
+        <div class="d-flex justify-content-end fixed-bottom me-4 mb-4">
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-outline-light rounded-circle " data-bs-toggle="modal"
+                data-bs-target="#chatmodal">
+                <!-- <i class="fa-solid fa-message fa-2x"></i> -->
+                <i class="fa-solid fa-comment-dots fa-2x"></i>
+            </button>
+        </div>
         <!-- Modal -->
         <div class="modal fade" id="chatmodal" tabindex="0" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
@@ -185,6 +186,61 @@
         </div>
     </div>
 
+    <hr class="mt-5">
+
+    <!-- COMMENTAIRES -->
+    <div class="container">
+        <div class="col-md-12 row mt-4">
+            <div class="col row text-center">
+                <h3>COMMENTAIRES</h3>
+            </div>
+        </div>
+        <div class="col row">
+            <div class="col row border border-white text-center">
+                <img src="./assets/images/wallpaper-kush.png" alt="" class="img-size-52-52 rounded-circle mt-3">
+                <div class="col row">
+                    <h2 class="d-flex align-items-center">𝓓𝓻 𝓚𝓾𝓼𝓱 </h2>
+                    <p class="d-flex align-items-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Repellat, nulla culpa? Asperiores, praesentium accusamus expedita ipsum quidem laborum. Quasi
+                        rem voluptatibus architecto eos corporis voluptas? ipsum dolor sit amet consectetur adipisicing
+                        elit. Voluptatem odio ad earum minus molestiae iste similique. Odio perspiciatis eaque
+                        exercitationem?</p>
+                    <div class="col text-end mb-2">
+                        <button type="button" class="btn btn-outline-primary border-white"><i
+                                class="fa-solid fa-thumbs-up text-white "></i></button>
+                        <button type="button" class="btn btn-outline-danger border-white"><i
+                                class="fa-solid fa-thumbs-down text-white"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END COMMENTAIRES -->
+    
+    <!-- DEBUT ECRIRE COMMENTAIRE -->
+    <div class="container mt-4">
+        <div class="col-md-12 row">
+            <div class="col row">
+                <h3 class="text-center">Laissez un commentaire</h3>
+                <div class="col md-6">
+                    <!-- Input + textarea Nom -->
+                    <div class="mb-12">
+                        <label for="exampleFormControlTextarea1" class="form-label text-white text-start">Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <!-- Button white envoyer -->
+                    <div class="col-md-12 text-center mt-2">
+                        <button type="button" class="btn btn-outline-light">Envoyer</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+
+    <!-- FIN ECRIRE COMMENTAIRE -->
 
     <!-- SCRIPT -->
     <!-- JavaScript Bundle with Popper -->
