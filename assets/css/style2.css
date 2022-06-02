@@ -9276,14 +9276,13 @@ textarea.form-control-lg {
 
   .d-print-none {
     display: none !important; } }
-@media screen and (max-width: 576px) {
-  body {
-    background-color: white; }
-
-  .title {
-    color: red; } }
 .img-size-52-52 {
   width: 100px;
   height: 80px; }
+
+.resp {
+  display: flex;
+  flex-direction: column;
+  align-self: center; }
 
 /*# sourceMappingURL=style2.css.map */
