@@ -9280,7 +9280,7 @@ textarea.form-control-lg {
   width: 100px;
   height: 80px; }
 
-.resp {
+.responsive {
   display: flex;
   flex-direction: column;
   align-self: center; }
